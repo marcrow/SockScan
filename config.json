@@ -1,0 +1,16 @@
+{
+    "proxies": [
+        {"ip": "10.39.175.157", "port": 2080, "SOCKS": 5},
+        {"ip": "10.39.175.157", "port": 3080, "SOCKS": 5},
+        {"ip": "10.39.175.157", "port": 4080, "SOCKS": 5}
+    ],
+    "scan_name": "Scan1",
+    "targets_file": "targets.txt",
+    "ports": [3389, 80, 8000, 8080, 139, 443, 8443, 22, 21, 23, 25, 445, 512, 5601, 514, 6000, 53, 5985, 3128, 9100, 1112, 3306, 1433, 1434],
+    "timeout": 1,
+    "max_threads_per_proxy": 7,
+    "output_mode": "single",
+    "output_dir": "results/",
+    "log_dir": "results/"
+
+}
